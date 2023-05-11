@@ -1,0 +1,172 @@
+body {
+  background-color: bisque;
+  justify-content: center;
+
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  margin: 15% 30%;
+  white-space: nowrap;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 22px;
+}
+
+#start:hover {
+  cursor: pointer;
+  background-color: rgb(242, 101, 124);
+}
+
+button {
+  cursor: pointer;
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  width: 20%;
+  padding: 12px 20px;
+  margin: 0% 39%;
+  box-sizing: border-box;
+  font-size: 18px;
+  border-radius: 12px;
+
+
+}
+
+.initials {
+  padding-left: 38%;
+}
+
+#result-feedback {
+  font-size: 40px;
+  text-align: center;
+}
+
+hr {
+  color: gray;
+  font-size: large;
+  margin-top: 10px;
+}
+
+#quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#quiz {
+  display: none;
+}
+
+#game-over,
+#high-scores {
+  display: none;
+}
+
+.choice-container {
+  background-color: darkblue;
+  color: white;
+  font-size: 10px;
+  border-radius: 20px;
+  padding: 1px;
+  margin: 6px 459px;
+
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  background-color: rgb(242, 101, 124);
+}
+
+#displayHighScores {
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#displayHighScores:hover {
+  cursor: pointer;
+  color: rgb(242, 101, 124);
+}
+
+#timer {
+  padding-left: 93%;
+font-size: 21px;
+margin-top: -25px;
+}
+
+#question {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 70px;
+  padding-bottom: 55px;
+}
+
+
+
+#game-over input[type="text"] {
+  width: 100px;
+  margin-left: 10px;
+}
+
+#game-over p {
+  font-size: 24px;
+}
+
+
+
+#game-over label {
+  font-size: 18px;
+}
+
+
+
+#high-scores li {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#high-scores button {
+  margin-top: 20px;
+}
+
+/*below is style for highscores.html*/
+title {
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* below is style for highscores.js*/
+
+#goBack {
+  display: flex;
+  width: 14%;
+  margin-top: 2%;
+  margin-left: 37%;
+  padding-bottom: 8px;
+}
+
+#clearHighScores {
+  display: flex;
+  width: 16%;
+  margin-top: -44px;
+  margin-left: 52%;
+  padding-top: 8px;
+}
+
+
+/* score storege*/
+#highscores-list {
+  text-align: center;
+  background-color: rgb(196, 192, 192);
+  font-size: 25px;
+}
+
+/* remove the bullets from */
+ul {
+  list-style-type: none;
+}

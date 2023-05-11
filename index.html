@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <a href="highscores.html" id="displayHighScores">view high scores</a>
+    <div id="timer" onlick="time()">Time: 0</div> <!-- onclick method when clicked it time start counting set my time equal to 0 and when i star quiz it will stating counting-->
+    <div class="container">
+        <div id="home"> <!-- this div is create for my start quiz home page.-->
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the following code-related questions within the time limit. <br>
+                Keep in mind that incorrect answers will penalize your score/time <br> by ten seconds!</p>
+            <button id="start">Start Quiz</button> <!-- when i click the start quiz button when i can start take my quiz-->
+        </div>
+
+        <div id="quiz"> <!--create new div box for quiz questions-->
+            <!--<div id="timer">Time: 75</div> create text that display 75 sec on browser-->
+            <div id="question"></div> <!-- empty div for store questions-->
+            <div id="choices"><!-- create div to store ABCD possible answers-->
+                <div class="choice-container">
+                    <p class="choice-text"></p><!--answer A-->
+                </div>
+                <div class="choice-container">
+                    <p class="choice-text"></p><!--answer b-->
+                </div>
+                <div class="choice-container">
+                    <p class="choice-text"></p><!--answer c-->
+                </div>
+                <div class="choice-container">
+                    <p class="choice-text"></p><!--answer D-->
+                </div>
+            </div>
+
+            <hr>
+
+            <div id="result-feedback"></div> <!--empty div when answering question it will display correct or wrong it has id called result-feedback for add in js-->
+        </div>
+        <div id="game-over">
+            <h1>All done</h1> <!--create a div element when all question is answerd display result-->
+            <p>Your final score is: <span id="final-score"></span></p>
+
+
+            <!--inline css style for make my enter initials and sumbit text look more nicer it also can put in style.css file as a external -->
+            <style> 
+                .initials input,
+                .initials button {
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin: 0;
+                    padding: 0;
+                }
+            </style>
+
+           <!--create a placeholder so that i can enter my initals after i finish quiz-->
+            <div class="initials">Enter initials: <input type="text" id="initials" placeholder=" "><button
+                    id="submit">Submit</button></div>
+
+        </div>
+    </div>
+    <!--link to js js should be always placed above the close /body tag-->
+    <script src="script.js"></script>
+</body>
+
+</html>
