@@ -6,6 +6,7 @@ also delete the score or go back and restart the game.
 
 ## The URL of the deployed application
 ## The URL of the GitHub repository that contains your code.
+https://github.com/pzhong1/challenge04.git
 
 
 ## AS A coding boot camp student
