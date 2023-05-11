@@ -1,10 +1,15 @@
 ## Task
-Make a quiz game with HTML CSS JS API, when the game starts , the timer countdown will start
-, and if you answer question wrong, you will deduct 10 seconds, when you have answered all the
-questions, the user prints their initial and then displays the grade(0-100), and the user can
-also delete the score or go back and restart the game.
+Make a quiz game with HTML CSS JS API, when the game starts , the timer countdown will start  
+, and if you answer question wrong, you will deduct 10 seconds, when you have answered all the  
+questions, the user prints their initial and then displays the grade(0-100), and the user can  
+also delete the score or use go back button to go back to the previous step. on the left top coner has     
+a high score button that user can view scoer when refresh the web brower then user can take the quiz again   
+and all the scoer will saved in local storege  
+
 
 ## The URL of the deployed application
+https://pzhong1.github.io/challenge04/
+
 ## The URL of the GitHub repository that contains your code.
 https://github.com/pzhong1/challenge04.git
 
